@@ -129,6 +129,7 @@ def algorithm(draw, grid, start, end):
 
 		if current == end:
 			reconstruct_path(came_from, end, draw)
+			end.make_end()
 			return True
 		
 		for neighbor in current.neighbors:
@@ -209,8 +210,7 @@ def main(win, width):
 			if event.type == pygame.QUIT:
 				run = False
 
-			if started:
-				continue
+			
 
 	#check if user pressed on mouse, make checks on start , end position , the barriers
 			if pygame.mouse.get_pressed()[0]: #pressing the left 
@@ -237,11 +237,17 @@ def main(win, width):
 						end = None     
 
 			if event.type == pygame.KEYDOWN:
-				if event.key == pygame.K_SPACE and not started:
+				if event.key == pygame.K_SPACE and start and end:
 					for row in grid:
 						for node in row:
 							node.update_neighbors(grid)
 					algorithm(lambda: draw(win,grid, ROWS, width), grid, start ,end)
+
+
+				if event.key == pygame.K_c:
+					start = None
+					end = None
+					grid = make_grid(ROWS, width)
 	pygame.quit()
 
 main(WIN,WIDTH)
