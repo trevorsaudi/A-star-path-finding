@@ -45,4 +45,4 @@ Note: You can modify the `ROWS` and `WIDTH` variables in the code to adjust the 
 
 ## Acknowledgements
 
-This project is based on the A* path-finding algorithm and the Pygame library. It provides a visual representation of the algorithm's execution and allows users to interactively set the start and end points on the grid.
+--
