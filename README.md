@@ -46,8 +46,5 @@ Note: You can modify the `ROWS` and `WIDTH` variables in the code to adjust the 
 ## Demo 
 Run the application on the terminal 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/trevorsaudi/A-star-path-finding/blob/main/demo.gif "Demo")
 
-## Acknowledgements
-
---
