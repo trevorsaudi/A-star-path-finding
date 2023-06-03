@@ -43,6 +43,11 @@ To run the A* path-finding algorithm, follow these steps:
 
 Note: You can modify the `ROWS` and `WIDTH` variables in the code to adjust the size of the grid and the window dimensions.
 
+## Demo 
+Run the application on the terminal 
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 ## Acknowledgements
 
 --
