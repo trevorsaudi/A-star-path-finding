@@ -2,6 +2,11 @@
 
 This project implements the A* path-finding algorithm using Python and Pygame. The goal of the algorithm is to find the shortest path between a start point (A) and an end point (B) in a grid of nodes and edges. The algorithm uses informed search with heuristics to efficiently explore the search space.
 
+## Demo 
+Run the application on the terminal 
+
+![alt text](https://github.com/trevorsaudi/A-star-path-finding/blob/main/demo.gif "Demo")
+
 ## Dependencies
 
 To run this project, you need to have the following dependencies installed:
@@ -43,8 +48,4 @@ To run the A* path-finding algorithm, follow these steps:
 
 Note: You can modify the `ROWS` and `WIDTH` variables in the code to adjust the size of the grid and the window dimensions.
 
-## Demo 
-Run the application on the terminal 
-
-![alt text](https://github.com/trevorsaudi/A-star-path-finding/blob/main/demo.gif "Demo")
 
