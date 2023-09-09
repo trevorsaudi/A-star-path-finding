@@ -5,7 +5,7 @@ This project implements the A* path-finding algorithm using Python and Pygame. T
 ## Demo 
 Run the application on the terminal 
 
-![alt text](https://github.com/trevorsaudi/A-star-path-finding/blob/main/demo.gif "Demo")
+![alt text](https://github.com/trevorsaudi/A-star-path-finding/blob/main/Demo.gif "Demo")
 
 ## Dependencies
 
